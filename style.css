@@ -2,6 +2,7 @@
     box-sizing: border-box;
     text-align: center;
     background: #777;
+    margin: auto;
   }
   
   body {
@@ -13,26 +14,51 @@
   }
 
   header {
-    padding: 20px;
+    padding: 30px;
     margin-bottom: 20px;
     background: #ebebeb;
+    
   }
 
   #nav {
-    padding: 20px;
+    padding: 30px;
     margin-bottom: 20px;
     background: #ebebeb;
+    
   }
 
   #section {
+    float: left;
     padding: 20px;
     background: #ebebeb;
     width: 495px;
+    margin-right: 5px;
   
   }
 
   #article {
     padding: 20px;
-    margin: 20px;
+    margin: 10px 0px 0px 0px;
     color: #ebebeb;
+    
 }
+   #h1 {
+    padding: 10px;
+    margin: 15px 10px 10px 10px;
+    background-color: #ebebeb;
+    color: #777
+    
+}
+   #p {
+    padding: 10px;
+    margin: 10px;
+    background-color: #ebebeb;
+    color: #777
+}
+
+  aside {
+    float: right;
+    width: 445px;
+    padding: 30px 30px 253px 30px;
+    background: #ebebeb;
+}  
