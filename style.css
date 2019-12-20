@@ -3,6 +3,8 @@
     text-align: center;
     background: #777;
     margin: auto;
+    position: relative; 
+    top: 5px;
   }
   
   body {
@@ -14,44 +16,50 @@
   }
 
   header {
-    padding: 30px;
-    margin-bottom: 20px;
+    padding: 40px;
+    margin-bottom: 10px;
     background: #ebebeb;
     
   }
 
   #nav {
-    padding: 30px;
-    margin-bottom: 20px;
+    padding: 40px;
+    margin-bottom: 15px;
     background: #ebebeb;
     
   }
 
   #section {
     float: left;
-    padding: 20px;
+    padding: 25px;
     background: #ebebeb;
     width: 495px;
+    height: 275px;
     margin-right: 5px;
   
   }
 
   #article {
+    width: 475px;
+    height: 195px;
     padding: 20px;
-    margin: 10px 0px 0px 0px;
-    color: #ebebeb;
-    
-}
-   #h1 {
-    padding: 10px;
-    margin: 15px 10px 10px 10px;
-    background-color: #ebebeb;
-    color: #777
-    
-}
-   #p {
-    padding: 10px;
     margin: 10px;
+    color: #ebebeb;
+    position: relative; 
+    right: 25px;
+    top:15px;
+    
+}
+   h3 {
+    padding: 15px;
+    margin: 15px 0px 0px 0px;
+    background-color: #ebebeb;
+    color: #777;
+}
+
+   #p {
+    padding: 15px;
+    margin: 10px 0px 0px 0px;
     background-color: #ebebeb;
     color: #777
 }
@@ -59,6 +67,17 @@
   aside {
     float: right;
     width: 445px;
-    padding: 30px 30px 253px 30px;
+    height: 275px;
+    padding: 30px;
     background: #ebebeb;
 }  
+  #footer {
+    clear: both;
+    padding: 40px;
+    margin: 20px;
+    width: 960px;
+    background: #ebebeb;
+    position: relative; 
+    right: 20px;
+    top: 30px;
+  }
