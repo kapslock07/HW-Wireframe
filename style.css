@@ -13,6 +13,7 @@
     width: 960px;
     color: #777;
     background: #777;
+    
   }
 
   header {
@@ -81,3 +82,10 @@
     right: 20px;
     top: 30px;
   }
+ 
+  h4 {
+    font-weight: normal;
+    background-color: #ebebeb;
+  }
+  
+  
